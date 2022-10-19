@@ -30,23 +30,62 @@
 
 // 
 
-class Character {
-    constructor (name, age, eyes, hair) {
-      this.legs = 2;
-      this.arms = 2;
-      this.name = name;
-      this.age = age;
-      this.eyes = eyes;
-      this.hair = hair;
-    }
-    greet (otherCharacter) {
-      console.log('hi ' + otherCharacter + '!');
-    }
-    smite () {
-      console.log('I smite thee you vile person');
-    }
-  }
+// class Character {
+//     constructor (name, age, eyes, hair) {
+//       this.legs = 2;
+//       this.arms = 2;
+//       this.name = name;
+//       this.age = age;
+//       this.eyes = eyes;
+//       this.hair = hair;
+//     }
+//     greet (otherCharacter) {
+//       console.log('hi ' + otherCharacter + '!');
+//     }
+//     smite () {
+//       console.log('I smite thee you vile person');
+//     }
+//   }
   
-  const me = new Character('Cathy the Miraculous', 29, 'brown', 'locs of dark brown');
-  console.log(me);
-  
+//   const me = new Character('Cathy the Miraculous', 29, 'brown', 'locs of dark brown');
+//   console.log(me);
+// class Car {
+//   constructor (maker, serialNumber) {
+//     this.serialNumber = serialNumber;
+//     this.maker = maker
+//   }
+//   drive () {
+//     console.log('Vroom Vroom');
+//   }
+// }
+
+// const newCar = new Car('Mazda', 12345);
+// console.log(newCar);
+
+// class Factory {
+//   constructor (company) {
+//     this.company = company;
+//     this.cars = [];
+//   }
+//   generateCar () {
+//     const newCar = new Car(this.company, this.cars.length);
+//     this.cars.push(newCar);
+//   }
+//   findCar (index) {
+//     return this.cars[index];
+//   }
+// }
+// const tesla = new Factory('Tesla');
+// tesla.generateCar();
+// tesla.generateCar();
+// tesla.generateCar();
+// tesla.generateCar();
+// console.log(tesla);
+// console.log(tesla.findCar(0));
+
+// const porche = new Factory('Porche');
+// porche.generateCar();
+// porche.generateCar();
+// console.log(porche);
+// console.log(porche.findCar(0));
+
